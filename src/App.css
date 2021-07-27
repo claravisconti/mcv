@@ -1,3 +1,12 @@
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     padding: 0px !important
 }
+
+.dropdown-toggle::after {
+    display: none !important
+} 
+
+.pinkNav {
+background-color: #FEF2F4;
+color: #4F4F4F
+}
