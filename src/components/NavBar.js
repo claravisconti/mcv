@@ -8,7 +8,6 @@ function NavBar() {
     return (
         <div>
 
-            {/* Nabvar */}
             <Navbar collapseOnSelect expand="lg" className="pinkNav">
                 <Container>
                     <Navbar.Brand href="#home"><h3 className="logo">Bloom</h3></Navbar.Brand>
@@ -27,15 +26,13 @@ function NavBar() {
                             <Nav.Link href="#pricing">Sale</Nav.Link>
                             <Nav.Link href="#pricing">Contacto</Nav.Link>
                             <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
-
                         </Nav>
                         <Nav>
-
                             <img src={user}></img>
                             <NavDropdown title="Clara Visconti" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Cerrar Sesión</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.4">Cerrar sesión</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

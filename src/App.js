@@ -9,9 +9,7 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <div>
-      <Container fluid>
       <NavBar />
-     </Container>
     </div>
   );
 }

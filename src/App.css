@@ -15,6 +15,12 @@
     color: #4F4F4F !important
 }
 
+.dropdown-item:hover {
+    background-color:#ddafb8 !important;
+    color: #ffff !important
+  
+}
+
 .dropdown-item {
     background-color: #FEF2F4 !important;
     color: #4F4F4F !important
