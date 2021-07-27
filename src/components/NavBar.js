@@ -25,6 +25,7 @@ function NavBar() {
                             </NavDropdown>
                             <Nav.Link href="#pricing">Sale</Nav.Link>
                             <Nav.Link href="#pricing">Contacto</Nav.Link>
+                            <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
                            
                         </Nav>
                         <Nav>
