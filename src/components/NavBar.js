@@ -1,11 +1,12 @@
 import React from 'react';
 import '../App.css';
-import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
-import logo from '../logo.svg';
+import { Navbar, Container, NavDropdown, Nav, Image } from 'react-bootstrap';
+import user from '../images/user.png';
 
 function NavBar() {
     return (
         <div>
+
             {/* Nabvar */}
             <Navbar collapseOnSelect expand="lg" className="pinkNav">
                 <Container>
@@ -24,9 +25,11 @@ function NavBar() {
                             </NavDropdown>
                             <Nav.Link href="#pricing">Sale</Nav.Link>
                             <Nav.Link href="#pricing">Contacto</Nav.Link>
+                           
                         </Nav>
                         <Nav>
 
+                            <img src={user}></img>
                             <NavDropdown title="Clara Visconti" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
