@@ -6,7 +6,28 @@
     display: none !important
 } 
 
-.pinkNav {
-background-color: #FEF2F4;
-color: #4F4F4F
+.logo {
+    color: #ddafb8
 }
+
+.pinkNav, .dropdown-menu {
+    background-color: #FEF2F4 !important;
+    color: #4F4F4F !important
+}
+
+.dropdown-item {
+    background-color: #FEF2F4 !important;
+    color: #4F4F4F !important
+}
+
+.dropdown-menu.show {
+    border:none
+}
+
+
+
+
+
+/* .dropdown-menu[data-bs-popper] {
+     margin-top: 0.9rem !important;
+} */

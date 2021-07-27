@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Navbar, Container, NavDropdown, Nav, Image } from 'react-bootstrap';
 import user from '../images/user.png';
+import bloom from '../images/bloom.png';
 
 function NavBar() {
     return (
@@ -10,7 +11,7 @@ function NavBar() {
             {/* Nabvar */}
             <Navbar collapseOnSelect expand="lg" className="pinkNav">
                 <Container>
-                    <Navbar.Brand href="#home">Bloom</Navbar.Brand>
+                    <Navbar.Brand href="#home"><h3 className="logo">Bloom</h3></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
@@ -26,7 +27,7 @@ function NavBar() {
                             <Nav.Link href="#pricing">Sale</Nav.Link>
                             <Nav.Link href="#pricing">Contacto</Nav.Link>
                             <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
-                           
+
                         </Nav>
                         <Nav>
 
@@ -34,7 +35,6 @@ function NavBar() {
                             <NavDropdown title="Clara Visconti" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
-                                <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Cerrar Sesión</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
