@@ -1,0 +1,57 @@
+{
+    "Inicio": [],
+    "Colección": [
+        {
+            "type": "Abrigos",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Sacos",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Sweaters",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Buzos",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Remeras",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Camisas",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Pantalones",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Vestidos",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Faldas",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Accesorios",
+            "link": "https://www.google.com"
+        }
+    ],
+    "Sale": [],
+    "Contacto": [],
+    "Perfil": [
+        {
+            "type": "Mi cuenta",
+            "link": "https://www.google.com"
+        },
+        {
+            "type": "Log out",
+            "link": "https://www.google.com"
+        }
+    ]
+}
