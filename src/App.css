@@ -1,3 +1,5 @@
+/* Menu */
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     padding: 0px !important
 }
@@ -26,14 +28,8 @@
     color: #4F4F4F !important
 }
 
-.dropdown-menu.show {
+.dropdown-menu.show, .navbar-light .navbar-toggler {
     border:none
 }
 
-
-
-
-
-/* .dropdown-menu[data-bs-popper] {
-     margin-top: 0.9rem !important;
-} */
+/* Responsive */
