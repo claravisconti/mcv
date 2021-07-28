@@ -10,9 +10,6 @@ function NavBar() {
     return (
         <div>
 
-            <Container>
-            </Container>
-
             <Navbar collapseOnSelect expand="lg" className="pinkNav">
                 <Container>
                     <Navbar.Brand href="#home"><h3 className="logo">Bloom</h3></Navbar.Brand>
