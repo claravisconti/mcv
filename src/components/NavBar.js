@@ -4,11 +4,16 @@ import { Navbar, Container, NavDropdown, Nav, Image } from 'react-bootstrap';
 import user from '../images/user.png';
 import bloom from '../images/bloom.png';
 
+
+
 function NavBar() {
     return (
         <div>
 
-                 <Navbar collapseOnSelect expand="lg" className="pinkNav">
+            <Container>
+            </Container>
+
+            <Navbar collapseOnSelect expand="lg" className="pinkNav">
                 <Container>
                     <Navbar.Brand href="#home"><h3 className="logo">Bloom</h3></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -25,7 +30,7 @@ function NavBar() {
                             </NavDropdown>
                             <Nav.Link href="#pricing">Sale</Nav.Link>
                             <Nav.Link href="#pricing">Contacto</Nav.Link>
-                            
+
                         </Nav>
                         <Nav>
                             <img class="d-none d-lg-block" src={user}></img>
