@@ -36,4 +36,11 @@
     box-shadow: 0 0 0 0 !important
 }
 
-/* Responsive */
+/* Carrousel */
+
+.carousel-indicators [data-bs-target] {
+    width: 0.6em !important;
+    height: 0.6em !important;
+    margin: 0 0.4em !important; 
+    border-radius: 50%
+}
