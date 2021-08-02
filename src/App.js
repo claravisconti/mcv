@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Container fluid>
         <NavBar />
+        <ItemListContainer />
         <Banner />
       </Container>
 

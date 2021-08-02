@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import user from '../images/user.png';
+import CartWidget from './CartWidget';
 
 function NavBar() {
     return (
@@ -33,7 +34,9 @@ function NavBar() {
                                 <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.4">Cerrar sesión</NavDropdown.Item>
                             </NavDropdown>
+                            <CartWidget/>
                             <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
