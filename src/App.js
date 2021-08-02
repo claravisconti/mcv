@@ -2,11 +2,13 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
+import ItemListContainer from './components/ItemListContainer';
+import Footer from './components/Footer';
+
 // Styles
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <NavBar />
         <ItemListContainer />
         <Banner />
+        <Footer />
       </Container>
 
     </div>
