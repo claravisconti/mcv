@@ -9,7 +9,7 @@ const CardStyle = ({ id, title, price, image }) => {
     return (
         <div>
             <Card>
-                <CardImg top width="100%" src={`../images/${image}`} alt={title} />
+                <CardImg top width="100%" src={image} alt={title} />
                 <CardBody>
                     <CardTitle tag="h5">{title}</CardTitle>
                     <CardText>{price}</CardText>

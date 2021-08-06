@@ -2,25 +2,28 @@ import React from 'react';
 import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import CardStyle from './CardStyle';
+import vestidoClara from '../images/vestidoClara.jpg';
+import vestidoSofia from '../images/vestidoSofia.jpg';
+import vestidoLuna from '../images/vestidoLuna.jpg';
 
 const dresses = [
     {
         id: 1,
         title: "Vestido Clara",
         price: "$5000",
-        image: "vestidoClara.jpg",
+        image: vestidoClara,
     },
     {
         id: 2,
         title: "Vestido Sofia",
         price: "$5000",
-        image: "vestidoSofia.jpg",
+        image: vestidoSofia,
     },
     {
         id: 3,
         title: "Vestido Luna",
         price: "$5000",
-        image: "vestidoLuna.jpg",
+        image: vestidoLuna,
     }
 ];
 
