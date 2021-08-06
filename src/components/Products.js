@@ -3,7 +3,7 @@ import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import CardStyle from './CardStyle';
 
-const clothes = [
+const dresses = [
     {
         id: 1,
         title: "Vestido Clara",
@@ -29,12 +29,12 @@ function Products() {
         <div>
             <Container>
                 <Row>
-                    <Col>
-                        {
-                            clothes.map(item => {
-                                return <CardStyle id={item.id} title={item.title} price={item.price} image={item.image} />
-                            })
-                        }
+                <Col>
+                    {
+                        dresses.map(item => {
+                            return <CardStyle id={item.id} title={item.title} price={item.price} image={item.image} />
+                        })
+                    }
                     </Col>
                 </Row>
             </Container>

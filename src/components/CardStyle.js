@@ -5,7 +5,6 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
-
 const CardStyle = ({ id, title, price, image }) => {
     return (
         <div>
