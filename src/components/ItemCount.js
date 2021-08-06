@@ -3,12 +3,14 @@ import '../App.css';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import user from '../images/user.png';
 
-function ItemListContainer() {
+function ItemCount() {
     return (
         <div>
+
+
         </div>
     );
 }
 
-export default ItemListContainer;
+export default ItemCount;
 
