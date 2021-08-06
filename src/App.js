@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import ItemListContainer from './components/ItemListContainer';
-import CardStyle from './components/CardStyle';
+import Products from './components/Products';
 import ItemCount from './components/ItemCount';
 import Footer from './components/Footer';
 
@@ -18,9 +18,9 @@ function App() {
 
       <Container fluid>
         <NavBar />
-        <ItemCount />
-        <CardStyle />
         {/* <Banner /> */}
+        <ItemCount />
+        <Products />
         <Footer />
       </Container>
 
