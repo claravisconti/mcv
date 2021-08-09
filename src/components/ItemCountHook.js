@@ -2,17 +2,18 @@ import React, { useState } from 'react';
 import '../App.css';
 
 function ItemCountHook() {
-  
+
     const [item, setItem] = useState(1);
+    const [stock, setStock] = useState(5);
 
     function remove() {
-        if (item > 1) {
+        if (item > 1 ) {
             setItem(item - 1)
         }
     }
 
     function add() {
-        if (item >= 1) {
+        if (item >= 1 && item < stock) {
             setItem(item + 1)
         }
     }
