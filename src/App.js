@@ -20,8 +20,8 @@ function App() {
         <NavBar />
         {/* <Banner /> */}
         <ItemCount />
-        <Products />
-        <Footer />
+        {/* <Products /> */}
+        {/* <Footer /> */}
       </Container>
 
     </div>
