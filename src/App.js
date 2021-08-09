@@ -11,7 +11,6 @@ import Footer from './components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import ItemCountHook from './components/ItemCountHook';
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
       <Container fluid>
         <NavBar />
         {/* <Banner /> */}
-        <ItemCountHook />
+        <ItemCount />
         {/* <Products /> */}
         {/* <Footer /> */}
       </Container>

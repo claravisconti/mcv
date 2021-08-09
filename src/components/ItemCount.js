@@ -1,79 +1,70 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
-import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
-import user from '../images/user.png';
 
-class ItemCount extends React.Component {
+function ItemCountHook() {
 
-    constructor(props) {
-        super(props);
-        this.state = { count: 1 }
-    }
+    const [item, setItem] = useState(1);
+    const [stock, setStock] = useState(5);
 
-    add() {
-        if (this.state.count >= 1) {
-        this.setState({ count: this.state.count + 1 });
+    function remove() {
+        if (item > 1) {
+            setItem(item - 1)
         }
     }
 
-    remove() {  
-        if (this.state.count > 1) {
-            this.setState({ count: this.state.count - 1 });
+    function add() {
+        if (item >= 1 && item < stock) {
+            setItem(item + 1)
         }
     }
 
-    render() {
-
-        return (
-            <div>
-                <p>Cantidad:{this.state.count}</p>
-                <button type="button" onClick={this.remove.bind(this)}>-</button>
-                <button type="button" onClick={this.add.bind(this)}>+</button>
-                <button type="button">Agregar al carrito</button>
-            </div>
-        );
-
-    }
-
+    return (
+        <div>
+            <p>Cantidad:{item}</p>
+            <button type="button" onClick={remove}>-</button>
+            <button type="button" onClick={add}>+</button>
+            <button type="button">Agregar al carrito</button>
+        </div>
+    );
 }
 
-export default ItemCount;
+export default ItemCountHook;
 
-// FUNCIONES
 
-// function ItemCount() {
+// class ItemCount extends React.Component {
 
-//     var item = 1;
+//     constructor(props) {
+//         super(props);
+//         this.state = { count: 1 }
+//     }
 
-//     function remove() {
-//         if (item >= 1) {
-//             item = item - 1;
-//             console.log("remove");
+//     add() {
+//         if (this.state.count >= 1) {
+//         this.setState({ count: this.state.count + 1 });
 //         }
 //     }
 
-//     function add() {
-//         if (item >= 1) {
-//             item = item + 1;
-//             console.log("add");
+//     remove() {  
+//         if (this.state.count > 1) {
+//             this.setState({ count: this.state.count - 1 });
 //         }
 //     }
 
-//     function addToBag() {
-//         if (item >= 1) {
-//             console.log("Bag");
-//         }
+//     render() {
+
+//         return (
+//             <div>
+//                 <p>Cantidad:{this.state.count}</p>
+//                 <button type="button" onClick={this.remove.bind(this)}>-</button>
+//                 <button type="button" onClick={this.add.bind(this)}>+</button>
+//                 <button type="button">Agregar al carrito</button>
+//             </div>
+//         );
+
 //     }
 
-//     return (
-//         <div>
-//             <p>Cantidad:{item}</p>
-//             <button type="button" onClick={remove}>-</button>
-//             <button type="button" onClick={add}>+</button>
-//             <button type="button" onClick={addToBag}>Agregar al carrito</button>
-//         </div>
-//     );
 // }
 
-//export default ItemCount;
+// export default ItemCount;
+
 
