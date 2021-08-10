@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../App.css';
 
-function ItemCount() {
+function ItemCount(props) {
 
     const [item, setItem] = useState(1);
-    const [stock, setStock] = useState(5);
+    const [stock, setStock] = useState(props.count);
 
     function remove() {
         if (item > 1) {
@@ -29,3 +29,4 @@ function ItemCount() {
 }
 
 export default ItemCount;
+

@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import ItemListContainer from './components/ItemListContainer';
 import Products from './components/Products';
-import ItemCount from './components/ItemCount';
+import VistaProducto from './views/VistaProducto';
 import Footer from './components/Footer';
 
 // Styles
@@ -19,7 +19,7 @@ function App() {
       <Container fluid>
         <NavBar />
         {/* <Banner /> */}
-        <ItemCount />
+        <VistaProducto />
         {/* <Products /> */}
         {/* <Footer /> */}
       </Container>
