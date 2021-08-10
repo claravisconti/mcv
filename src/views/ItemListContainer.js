@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import ItemList from './ItemList';
+import ItemList from '../components/ItemList';
 
 
 function ItemListContainer() {
