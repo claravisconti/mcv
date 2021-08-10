@@ -55,12 +55,11 @@ function ItemList() {
                 <Row>
                     <Col>
 
-                        {/* 
-                         {
-                            dresses.map(item => {
-                                return <Item id={item.id} title={item.title} price={item.price} image={item.image} />
+                        {
+                            dresses.map((item)=> {
+                                return <Item key={item.id} title={item.title} price={item.price} image={item.image} />
                             })
-                        }  */}
+                        }
 
                     </Col>
                 </Row>
