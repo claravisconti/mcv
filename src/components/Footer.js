@@ -7,10 +7,9 @@ function Footer() {
     <div>
       <Container>
         <Row>
-          <Col>
-          </Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
+          <Col lg="3">Texto1</Col>
+          <Col lg="3">Texto1</Col>
+          <Col lg="3">Texto1</Col>
         </Row>
       </Container>
     </div>

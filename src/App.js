@@ -18,7 +18,7 @@ function App() {
       <Container fluid>
         <NavBar />
         <ItemListContainer />
-        {/* <Footer /> */}
+        <Footer />
       </Container>
 
     </div>

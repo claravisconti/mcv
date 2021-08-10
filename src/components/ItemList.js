@@ -25,20 +25,42 @@ const dresses = [
         price: "$5000",
         image: vestidoLuna,
     }
-];
+]
 
 function ItemList() {
+
+    const pasarVestidos = () =>
+        new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if (dresses.length > 0) {
+                    resolve(dresses)
+                } else {
+                    reject("No hay resultados")
+                }
+            }, 1000);
+        });
+
+    pasarVestidos()
+        .then(
+            (resultado) => {
+                console.log(resultado)
+            },
+            (error) => console.log(error)
+        )
+        .catch(error => console.log(error));
+
     return (
         <div>
             <Container>
-                <Row> 
+                <Row>
                     <Col>
 
-                        {
+                        {/* 
+                         {
                             dresses.map(item => {
                                 return <Item id={item.id} title={item.title} price={item.price} image={item.image} />
                             })
-                        }
+                        }  */}
 
                     </Col>
                 </Row>
