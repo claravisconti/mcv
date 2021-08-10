@@ -1,12 +1,19 @@
 import React from 'react';
 import '../App.css';
+import { Container, Row, Col } from 'react-bootstrap';
 import ItemList from './ItemList';
+
 
 function ItemListContainer() {
     return (
-        <div>
-            <ItemList/>
-        </div>
+        <Container>
+            <Row>
+                <Col>
+                    <ItemList />
+                </Col>
+            </Row>
+        </Container>
+
     );
 }
 

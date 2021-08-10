@@ -3,7 +3,6 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import ItemListContainer from './components/ItemListContainer';
-import Products from './components/Products';
 import VistaProducto from './views/VistaProducto';
 import Footer from './components/Footer';
 
