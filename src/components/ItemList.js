@@ -35,7 +35,7 @@ function ItemList() {
                 if (dresses.length > 0) {
                     resolve(dresses)
                 } else {
-                    reject("No hay resultados")
+                    reject("No se encontraron resultados")
                 }
             }, 1000);
         });
