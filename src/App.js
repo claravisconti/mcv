@@ -18,9 +18,7 @@ function App() {
 
       <Container fluid>
         <NavBar />
-        {/* <Banner /> */}
-        <VistaProducto />
-        {/* <Products /> */}
+        <ItemListContainer />
         {/* <Footer /> */}
       </Container>
 

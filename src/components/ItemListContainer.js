@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
-import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
-import user from '../images/user.png';
+import ItemList from './ItemList';
 
 function ItemListContainer() {
     return (
         <div>
+            <ItemList/>
         </div>
     );
 }
