@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Item from './Item';
 import vestidoClara from '../images/vestidoClara.jpg';
 import vestidoSofia from '../images/vestidoSofia.jpg';
 import vestidoLuna from '../images/vestidoLuna.jpg';
+import Item from './Item';
 
 const dresses = [
     {
@@ -31,17 +31,18 @@ function ItemList() {
     return (
         <div>
             <Container>
-                <Row>
-                <Col>
-                    {
-                        dresses.map(item => {
-                            return <Item id={item.id} title={item.title} price={item.price} image={item.image} />
-                        })
-                    }
+                <Row> 
+                    <Col>
+
+                        {
+                            dresses.map(item => {
+                                return <Item id={item.id} title={item.title} price={item.price} image={item.image} />
+                            })
+                        }
+
                     </Col>
                 </Row>
             </Container>
-
         </div>
     );
 }
