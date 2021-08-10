@@ -1,39 +1,16 @@
 import React from 'react';
 import '../App.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import vestidoClara from '../images/vestidoClara.jpg';
-import vestidoSofia from '../images/vestidoSofia.jpg';
-import vestidoLuna from '../images/vestidoLuna.jpg';
 import Item from './Item';
-
-const dresses = [
-    {
-        id: 1,
-        title: "Vestido Clara",
-        price: "$5000",
-        image: vestidoClara,
-    },
-    {
-        id: 2,
-        title: "Vestido Sofia",
-        price: "$5000",
-        image: vestidoSofia,
-    },
-    {
-        id: 3,
-        title: "Vestido Luna",
-        price: "$5000",
-        image: vestidoLuna,
-    }
-]
+import vestidos from '../apis/vestidos';
 
 function ItemList() {
 
     const pasarVestidos = () =>
         new Promise((resolve, reject) => {
             setTimeout(() => {
-                if (dresses.length > 0) {
-                    resolve(dresses)
+                if (vestidos.length > 0) {
+                    resolve(vestidos)
                 } else {
                     reject("No se encontraron resultados")
                 }
@@ -56,7 +33,7 @@ function ItemList() {
                     <Col>
 
                         {
-                            dresses.map((item)=> {
+                            vestidos.map((item)=> {
                                 return <Item key={item.id} title={item.title} price={item.price} image={item.image} />
                             })
                         }
