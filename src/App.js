@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import ItemListContainer from './views/ItemListContainer';
-import VistaProducto from './views/VistaProducto';
+import ItemDetailContainer from './views/ItemDetailContainer';
 import Footer from './components/Footer';
 
 // Styles
@@ -18,6 +18,7 @@ function App() {
       <Container fluid>
         <NavBar />
         <ItemListContainer />
+        <ItemDetailContainer />
         <Footer />
       </Container>
 
