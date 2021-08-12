@@ -35,7 +35,7 @@ function NavBar() {
                                 <NavDropdown.Item href="#action/3.4">Cerrar sesión</NavDropdown.Item>
                             </NavDropdown>
                             <CartWidget/>
-                            <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
+                            <Nav.Link href="#pricing"><i className="fas fa-search"></i></Nav.Link>
                             
                         </Nav>
                     </Navbar.Collapse>
