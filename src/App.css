@@ -52,12 +52,29 @@ p, h2, h3, h4, h5, h6 {
     max-width: 500px;
 }
 
-.rojo {
-    background-color: red;
+/*Color-picker*/
+
+.color-picker {
+    display: inline-block;
+    border: none;
+    height: 2em;
+    width:2em;
+    text-decoration: none;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.negro {
+    background-color: black !important;
+}
+
+.rosa {
+    background-color: #ddafb8;
 }
 
 .blanco {
-    background-color: white;
+    border: 0.5px solid #ACA9A1;
+    background-color: #FFFBFB;
 }
 
 /* Menu */

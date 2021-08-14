@@ -5,9 +5,6 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 import ItemCount from '../components/ItemCount';
-import vestidoClara from '../images/vestidoClara.jpg';
-import vestidoSofia from '../images/vestidoSofia.jpg';
-import vestidoLuna from '../images/vestidoLuna.jpg';
 
 const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
@@ -50,15 +47,18 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                                 <h2>{price}</h2>
                                 <div>
                                     {
-                                        colores.map((item, key) => (
-                                            <button key={item}>{item}</button>
+                                        colores.map((item, reference) => (
+                                            <a class={`
+                                            color-picker
+                                            ${item}
+                                        `}></a>
                                         ))
                                     }
                                 </div>
                                 <div>
                                     {
                                         talles.map((item, key) => (
-                                            <button class="btn btn-light" key={item}>{item}</button>  
+                                            <button class="btn btn-light" key={item}>{item}</button>
                                         ))
                                     }
                                 </div>

@@ -9,7 +9,7 @@ const vestidos = [
         price: "$8.990",
         descripcion:"Vestido confeccionado en flamécon silueta linea a, y frunces tipo volados en cuerpo y mangas, escote redondo y mangas acampanadas.",
         image: vestidoClara,
-        colores: ['rojo','amarillo','blanco'],
+        colores: ['blanco','rosa','negro'],
         talles: [40,42,44,46],
         fotos: [vestidoClara,vestidoSofia,vestidoLuna]
         

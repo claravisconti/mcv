@@ -3,9 +3,6 @@ import "../App.css";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import ItemDetail from '../components/ItemDetail';
 import vestidos from '../apis/vestidos';
-import vestidoClara from '../images/vestidoClara.jpg';
-import vestidoSofia from '../images/vestidoSofia.jpg';
-import vestidoLuna from '../images/vestidoLuna.jpg';
 
 function ItemDetailContainer() {
 
