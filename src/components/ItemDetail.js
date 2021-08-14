@@ -9,8 +9,6 @@ import vestidoClara from '../images/vestidoClara.jpg';
 import vestidoSofia from '../images/vestidoSofia.jpg';
 import vestidoLuna from '../images/vestidoLuna.jpg';
 
-// Cards unico producto
-
 const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
     return (
@@ -20,7 +18,7 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                 {/* Preview */}
 
                 <div class="col-md-3">
-                    <div>
+                    <div class="row">
                         {
                             fotos.map((item, key) => (
                                 <img class="preview" src={item} alt={item} />
