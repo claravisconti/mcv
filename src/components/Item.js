@@ -5,6 +5,8 @@ import {
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
+// Cards ver todos
+
 const Item = ({ id, title, price, image }) => {
     return (
         <div>

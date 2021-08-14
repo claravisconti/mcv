@@ -6,6 +6,8 @@ import {
 } from 'reactstrap';
 import ItemCount from '../components/ItemCount';
 
+// Cards unico producto
+
 const ItemDetail = ({ id, title, price, image }) => {
     return (
         <div>
