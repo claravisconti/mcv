@@ -19,7 +19,7 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                     {/* Preview */}
 
                     <div class="col-md-3">
-                        <div class="row"    >
+                        <div class="row">
                             {
                                 fotos.map((item, key) => (
                                     <img src={item} alt={item} class="preview" />
