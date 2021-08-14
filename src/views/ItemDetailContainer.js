@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-
 import "../App.css";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import ItemDetail from '../components/ItemDetail';
 import vestidos from '../apis/vestidos';
+import vestidoClara from '../images/vestidoClara.jpg';
+import vestidoSofia from '../images/vestidoSofia.jpg';
+import vestidoLuna from '../images/vestidoLuna.jpg';
 
 function ItemDetailContainer() {
 
@@ -16,9 +18,9 @@ function ItemDetailContainer() {
                     if (vestidos.length > 0) {
                         resolve(vestidos)
                     } else {
-                        reject("No se encontraron resultados")
+                        reject("Producto no disponible")
                     }
-                }, 2000);
+                }, 1000);
             });
 
         pasarVestidos()
@@ -33,17 +35,16 @@ function ItemDetailContainer() {
 
     return (
         <div>
-         <Container>
-                <Row>
-                    <Col>
-                        {
-                            ropa.map((item) => {
-                                return <ItemDetail key={item.id} title={item.title} price={item.price} image={item.image} />
-                            })
-                        }
-                    </Col>
-                </Row>
-            </Container>
+
+            {
+                ropa.map((item, page) => {
+                    page = 1;
+                    if (item.id == page)
+                        return <ItemDetail key={item.id} title={item.title} price={item.price} image={item.image} colores={item.colores} talles={item.talles} fotos={item.fotos}/>
+
+                })
+            }
+
         </div>
     );
 }

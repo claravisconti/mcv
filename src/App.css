@@ -1,15 +1,39 @@
+/* General */
+
+.container-fluid, .row, .col {
+    margin: 0;
+    padding: 0;
+}
+
+p, h2, h3, h4, h5, h6 {
+    color: grey;
+}
+
+/* Botones */
+
+.btn-primary, .btn-primary:visited {
+    background-color: #ddafb8 !important;
+    border-color: #ddafb8 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #D09EA8 !important;
+    border-color: #D09EA8 !important;
+}
+
+
 /* Menu */
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    padding: 0px !important
+    padding: 0px !important;
 }
 
 .dropdown-toggle::after {
-    display: none !important
+    display: none !important;
 } 
 
 .logo {
-    color: #ddafb8
+    color: #ddafb8;
 }
 
 .pinkNav, .dropdown-menu {

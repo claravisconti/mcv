@@ -11,7 +11,7 @@ const vestidos = [
         image: vestidoClara,
         colores: ['rojo','amarillo','blanco'],
         talles: [40,42,44,46],
-        fotos: [vestidoClara,vestidoClara,vestidoClara]
+        fotos: [vestidoClara,vestidoSofia,vestidoLuna]
         
     },
     {

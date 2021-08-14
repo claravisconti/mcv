@@ -19,11 +19,10 @@ function ItemCount(props) {
     }
 
     return (
-        <div>
-            <p>Cantidad:{item}</p>
-            <button type="button" onClick={remove}>-</button>
-            <button type="button" onClick={add}>+</button>
-            <button type="button">Agregar al carrito</button>
+        <div class="d-flex">
+            <button type="button" class="btn btn-primary" onClick={remove}>-</button>
+            <div class="mx-3">{item}</div>
+            <button type="button" class="btn btn-primary" onClick={add}>+</button>
         </div>
     );
 }

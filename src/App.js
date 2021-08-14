@@ -17,7 +17,6 @@ function App() {
 
       <Container fluid>
         <NavBar />
-        <ItemListContainer />
         <ItemDetailContainer />
         <Footer />
       </Container>
