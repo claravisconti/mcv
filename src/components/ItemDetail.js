@@ -19,19 +19,21 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                     {/* Preview */}
 
                     <div class="col-md-3">
-                        <div class="row">
-                            {
-                                fotos.map((item, key) => (
-                                    <img src={item} alt={item} class="preview" />
-                                ))
-                            }
 
-                        </div>
+                        {
+                            fotos.map((item, key) => (
+                                <div class="d-flex justify-content-center pb-3">
+                                    <img src={item} alt={item} class="preview" />
+                                </div>
+                            ))
+                        }
+
+
                     </div>
 
                     {/* View */}
 
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <div class="d-flex justify-content-center">
                             <img src={image} alt={title} class="view" />
                         </div>
@@ -39,7 +41,7 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
                     {/* Info producto */}
 
-                    <div class="col-md-3 ">
+                    <div class="col-md-3">
 
                         <div class="row">
 
