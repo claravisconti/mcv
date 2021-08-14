@@ -20,21 +20,17 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                 {/* Preview */}
 
                 <div class="col-md-3">
-
-
-
                     <div>
-                        {/* {
+                        {
                             fotos.map((item, key) => (
-                                <img key={item}>{item}</img>
+                                <img class="preview" src={item} alt={item} />
                             ))
-                        } */}
-                    </div>
+                        }
 
+                    </div>
                 </div>
 
                 {/* View */}
-
 
                 <div class="col-md-6">
 
@@ -48,7 +44,7 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
                     <div class="row">
 
-                        <div>
+                        <div class="py-3">
                             <h2>{title}</h2>
                             <h2>{price}</h2>
                             <ul>

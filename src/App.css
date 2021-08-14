@@ -21,6 +21,10 @@ p, h2, h3, h4, h5, h6 {
     border-color: #D09EA8 !important;
 }
 
+.preview {
+    width: 50px;
+}
+
 
 /* Menu */
 
