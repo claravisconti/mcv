@@ -13,58 +13,60 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
     return (
         <div>
-            <div class="row mx-5">
+            <div class="container">
+                <div class="row mt-5">
 
-                {/* Preview */}
+                    {/* Preview */}
 
-                <div class="col-md-3">
-                    <div class="row">
-                        {
-                            fotos.map((item, key) => (
-                                <img class="preview" src={item} alt={item} />
-                            ))
-                        }
+                    <div class="col-md-3">
+                        <div class="row"    >
+                            {
+                                fotos.map((item, key) => (
+                                    <img src={item} alt={item} class="preview" />
+                                ))
+                            }
 
+                        </div>
                     </div>
-                </div>
 
-                {/* View */}
+                    {/* View */}
 
-                <div class="col-md-6">
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-center">
+                            <img src={image} alt={title} class="view" />
+                        </div>
+                    </div>
 
-                    <img src={image} alt={title} />
+                    {/* Info producto */}
 
-                </div>
+                    <div class="col-md-3 ">
 
-                {/* Info producto */}
+                        <div class="row">
 
-                <div class="col-md-3">
-
-                    <div class="row">
-
-                        <div class="py-3">
-                            <h2>{title}</h2>
-                            <h2>{price}</h2>
-                            <ul>
-                                {
-                                    colores.map((item, key) => (
-                                        <li key={item}>{item}</li>
-                                    ))
-                                }
-                            </ul>
-                            <ul>
-                                {
-                                    talles.map((item, key) => (
-                                        <li key={item}>{item}</li>
-                                    ))
-                                }
-                            </ul>
-                            <ItemCount />
-                            <div>
-                                <a href="#" class="btn btn-primary w-100">Añadir al carrito</a>
-                            </div>
-                            <div>
-                                <a href="#" class="btn btn-primary w-100">Agregar a favoritos</a>
+                            <div class="py-3">
+                                <h2>{title}</h2>
+                                <h2>{price}</h2>
+                                <ul>
+                                    {
+                                        colores.map((item, key) => (
+                                            <li key={item}>{item}</li>
+                                        ))
+                                    }
+                                </ul>
+                                <ul>
+                                    {
+                                        talles.map((item, key) => (
+                                            <li key={item}>{item}</li>
+                                        ))
+                                    }
+                                </ul>
+                                <ItemCount />
+                                <div>
+                                    <a href="#" class="btn btn-primary w-100">Añadir al carrito</a>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary w-100">Agregar a favoritos</a>
+                                </div>
                             </div>
                         </div>
                     </div>
