@@ -11,7 +11,8 @@ const vestidos = [
         image: vestidoClara,
         colores: ['blanco','rosa','negro'],
         talles: [40,42,44,46],
-        fotos: [vestidoClara,vestidoSofia,vestidoLuna]
+        fotos: [vestidoClara,vestidoSofia,vestidoLuna],
+        stock: 5
         
     },
     {
@@ -22,7 +23,8 @@ const vestidos = [
         image: vestidoSofia,
         colores: ['rojo','amarillo','blanco'],
         talles: [40,42,44,46],
-        fotos: [vestidoClara,vestidoClara,vestidoClara]
+        fotos: [vestidoClara,vestidoClara,vestidoClara],
+        stock: 5
     },
     {
         id: 3,
@@ -32,7 +34,8 @@ const vestidos = [
         image: vestidoLuna,
         colores: ['rojo','amarillo','blanco'],
         talles: [40,42,44,46],
-        fotos: [vestidoClara,vestidoClara,vestidoClara]
+        fotos: [vestidoClara,vestidoClara,vestidoClara],
+        stock: 5
     }
 ]
 
