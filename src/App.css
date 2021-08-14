@@ -9,6 +9,10 @@ p, h2, h3, h4, h5, h6 {
     color: grey;
 }
 
+a, .a:link, a:hover, a:visited {
+    text-decoration: none !important;
+}
+
 /* Botones */
 
 .btn-primary, .btn-primary:visited {
@@ -59,9 +63,24 @@ p, h2, h3, h4, h5, h6 {
     border: none;
     height: 2em;
     width:2em;
-    text-decoration: none;
     margin: 0 2px;
     border-radius: 50%;
+}
+
+.color-picker-sizes {
+    border: none;
+    padding: 0.4em 0.55em;
+    border-radius: 50%;
+    background-color: #ddafb8;
+    color:white;
+}
+
+.color-picker-sizes:hover {
+    border: none;
+    padding: 0.4em 0.55em;
+    border-radius: 50%;
+    background-color: #D09EA8;
+    color:white;
 }
 
 .negro {

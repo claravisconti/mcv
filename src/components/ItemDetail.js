@@ -44,21 +44,21 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
 
                             <div class="py-3">
                                 <h2>{title}</h2>
-                                <h2>{price}</h2>
+                                <h3>{price}</h3>
                                 <div>
                                     {
-                                        colores.map((item, reference) => (
+                                        colores.map((item, link) => (
                                             <a class={`
                                             color-picker
                                             ${item}
-                                        `}></a>
+                                        `} href={link}></a>
                                         ))
                                     }
                                 </div>
                                 <div>
                                     {
-                                        talles.map((item, key) => (
-                                            <button class="btn btn-light" key={item}>{item}</button>
+                                        talles.map((item, link) => (
+                                            <a href={link} class="color-picker-sizes">{item}</a>
                                         ))
                                     }
                                 </div>
