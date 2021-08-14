@@ -48,20 +48,20 @@ const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
                             <div class="py-3">
                                 <h2>{title}</h2>
                                 <h2>{price}</h2>
-                                <ul>
+                                <div>
                                     {
                                         colores.map((item, key) => (
-                                            <li key={item}>{item}</li>
+                                            <button key={item}>{item}</button>
                                         ))
                                     }
-                                </ul>
-                                <ul>
+                                </div>
+                                <div>
                                     {
                                         talles.map((item, key) => (
-                                            <li key={item}>{item}</li>
+                                            <button class="btn btn-light" key={item}>{item}</button>  
                                         ))
                                     }
-                                </ul>
+                                </div>
                                 <ItemCount />
                                 <div>
                                     <a href="#" class="btn btn-primary w-100">Añadir al carrito</a>

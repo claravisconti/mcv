@@ -39,7 +39,7 @@ function ItemDetailContainer() {
             {
                 ropa.map((item, page) => {
                     page = 1;
-                    if (item.id == page)
+                    if (item.id === page)
                         return <ItemDetail key={item.id} title={item.title} price={item.price} image={item.image} colores={item.colores} talles={item.talles} fotos={item.fotos}/>
 
                 })

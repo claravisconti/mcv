@@ -20,9 +20,9 @@ function ItemCount(props) {
 
     return (
         <div class="d-flex">
-            <button type="button" class="btn btn-primary" onClick={remove}>-</button>
+            <button type="button" class="btn btn-secondary" onClick={remove}>-</button>
             <div class="mx-3">{item}</div>
-            <button type="button" class="btn btn-primary" onClick={add}>+</button>
+            <button type="button" class="btn btn-secondary" onClick={add}>+</button>
         </div>
     );
 }

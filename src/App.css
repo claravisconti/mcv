@@ -21,6 +21,29 @@ p, h2, h3, h4, h5, h6 {
     border-color: #D09EA8 !important;
 }
 
+.btn-light, .btn-light:visited {
+    background-color: white !important;
+    border-color: #ddafb8 !important;
+    color: #ddafb8 !important;
+}
+
+.btn-light:hover, .btn-light:focus {
+    background-color: #D09EA8 !important;
+    border-color: #D09EA8 !important;
+    color:white !important;
+}
+
+.btn-secondary, .btn-secondary:visited {
+    background-color: #ACA9A1 !important;
+    border-color: #ACA9A1 !important;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #ACA9A1 !important;
+    border-color: #ACA9A1 !important;
+    color:white !important;
+}
+
 .preview {
     width: 60%;
 }
@@ -29,6 +52,13 @@ p, h2, h3, h4, h5, h6 {
     max-width: 500px;
 }
 
+.rojo {
+    background-color: red;
+}
+
+.blanco {
+    background-color: white;
+}
 
 /* Menu */
 
