@@ -1,11 +1,13 @@
 import React from 'react';
 import '../App.css';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import user from '../images/user.png';
 import CartWidget from './CartWidget';
 
 function NavBar() {
     return (
+
         <div>
 
             <Navbar collapseOnSelect expand="lg" className="pinkNav">
@@ -34,9 +36,9 @@ function NavBar() {
                                 <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.4">Cerrar sesión</NavDropdown.Item>
                             </NavDropdown>
-                            <CartWidget/>
+                            <CartWidget />
                             <Nav.Link href="#pricing"><i className="fas fa-search"></i></Nav.Link>
-                            
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
