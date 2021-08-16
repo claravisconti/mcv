@@ -1,10 +1,8 @@
 // Components
 import React from 'react';
 import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import ItemListContainer from './views/ItemListContainer';
-import ItemDetailContainer from './views/ItemDetailContainer';
 import Footer from './components/Footer';
+import Router from './router/Router';
 
 // Styles
 import './App.css';
@@ -16,8 +14,8 @@ function App() {
     <div>
 
       <Container fluid>
+        <Router />
         <NavBar />
-        <ItemDetailContainer />
         <Footer />
       </Container>
 
