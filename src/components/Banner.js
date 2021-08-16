@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import slide from '../images/banner_01.jpg';
 
 function Banner() {

@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
-import { Container, Row, Col, Nav } from "react-bootstrap";
-import ItemCount from '../components/ItemCount';
+import { Container, Row } from "react-bootstrap";
 
 function Registro() {
     return (

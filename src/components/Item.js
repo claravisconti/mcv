@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle
 } from 'reactstrap';
 
 // Cards ver todos

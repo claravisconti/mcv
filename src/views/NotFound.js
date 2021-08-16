@@ -2,11 +2,13 @@ import React from "react";
 import "../App.css";
 import { Container, Row } from "react-bootstrap";
 
-function Contacto() {
+function NotFound() {
     return (
         <div>
             <Container>
                 <Row>
+
+                    <h1>Not Found</h1>
         
                 </Row>
             </Container>
@@ -14,4 +16,4 @@ function Contacto() {
     );
 }
 
-export default Contacto;
+export default NotFound;

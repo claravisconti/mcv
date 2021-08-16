@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "../App.css";
-import { Container, Row, Col, Nav } from "react-bootstrap";
 import ItemDetail from '../components/ItemDetail';
 import vestidos from '../apis/vestidos';
 
