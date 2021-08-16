@@ -14,8 +14,8 @@ function App() {
     <div>
 
       <Container fluid>
-        <Router />
         <NavBar />
+        <Router />
         <Footer />
       </Container>
 

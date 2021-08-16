@@ -8,6 +8,8 @@ function Home() {
         <div>
             <Container>
                 <Row>
+
+                    <h1>Home</h1>
         
                 </Row>
             </Container>

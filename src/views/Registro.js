@@ -8,7 +8,9 @@ function Registro() {
         <div>
             <Container>
                 <Row>
-        
+
+                    <h1>Registro</h1>
+
                 </Row>
             </Container>
         </div>

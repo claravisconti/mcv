@@ -8,6 +8,8 @@ function Ingreso() {
         <div>
             <Container>
                 <Row>
+
+                <h1>Ingreso</h1>
         
                 </Row>
             </Container>

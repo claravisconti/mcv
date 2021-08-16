@@ -8,6 +8,8 @@ function Carrito() {
         <div>
             <Container>
                 <Row>
+
+                <h1>Carrito</h1>
         
                 </Row>
             </Container>
