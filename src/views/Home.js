@@ -1,17 +1,11 @@
 import React from "react";
 import "../App.css";
-import { Container, Row } from "react-bootstrap";
+import Banner from '../components/Banner';
 
 function Home() {
     return (
         <div>
-            <Container>
-                <Row>
-
-                    <h1>Home</h1>
-        
-                </Row>
-            </Container>
+            <Banner />
         </div>
     );
 }
