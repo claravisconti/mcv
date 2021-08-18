@@ -2,16 +2,18 @@ import React from "react";
 import "../App.css";
 import { Container, Row } from "react-bootstrap";
 
-function Contacto() {
+function Perfil() {
     return (
         <div>
             <Container>
                 <Row>
-                    <h1>Contacto</h1>
+
+                <h1>Perfil</h1>
+        
                 </Row>
             </Container>
         </div>
     );
 }
 
-export default Contacto;
+export default Perfil;
