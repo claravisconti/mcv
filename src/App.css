@@ -1,13 +1,41 @@
-/* General */
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+:root {
+  --logoURL: "https://www.banksa.com.ar/wp-content/uploads/2018/09/logo-e1536025261614.png";
+ 
+  /* Primary */
+  --primaryBloom: #ddafb8;
+  --primaryHover: #D09EA8;
+  --secondaryBloom: #ACA9A1;
+  --secondaryHover:#9c9a92;
+  --menuBloom:#FEF2F4;
+  --background: #ffffff;
 
-.container-fluid, .row, .col {
-    margin: 0;
-    padding: 0;
+  /* Light */
+  --neutral70: #b8bec9;
+  --neutral60: #d5d8df;
+  --neutral50: #f2f3f5;
+  --neutral40: #fafbfc;
+
+  /* Dark */
+  --ink70: #000000;
+  --ink60: #212224;
+  --ink50: #393b3f;
+  --ink40: #60636a;
+  --ink30: #a4a8ae;
+
 }
 
-p, h2, h3, h4, h5, h6 {
-    color: grey;
+html, body {
+  color: var(--ink60);
+  font-family: "Mulish", sans-serif;
 }
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Links */
 
 a, .a:link, a:hover, a:visited {
     text-decoration: none !important;
@@ -16,36 +44,35 @@ a, .a:link, a:hover, a:visited {
 /* Botones */
 
 .btn-primary, .btn-primary:visited {
-    background-color: #ddafb8 !important;
-    border-color: #ddafb8 !important;
+    background-color: var(--primaryBloom) !important;
+    border-color: var(--primaryBloom) !important;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background-color: #D09EA8 !important;
-    border-color: #D09EA8 !important;
+    background-color: var(--primaryHover) !important;
+    border-color: var(--primaryHover) !important;
 }
 
 .btn-light, .btn-light:visited {
-    background-color: white !important;
-    border-color: #ddafb8 !important;
-    color: #ddafb8 !important;
+    background-color: var(--background) !important;
+    color: var(--background) !important;
 }
 
 .btn-light:hover, .btn-light:focus {
     background-color: #D09EA8 !important;
     border-color: #D09EA8 !important;
-    color:white !important;
+    color:var(--background) !important;
 }
 
 .btn-secondary, .btn-secondary:visited {
-    background-color: #ACA9A1 !important;
-    border-color: #ACA9A1 !important;
+    background-color: var(--secondaryBloom) !important;
+    border-color: var(--secondaryBloom) !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus {
-    background-color: #ACA9A1 !important;
-    border-color: #ACA9A1 !important;
-    color:white !important;
+    background-color: var(--secondaryHover) !important;
+    border-color: var(--secondaryHover) !important;
+    color: var(--background) !important;
 }
 
 .preview {
@@ -98,32 +125,27 @@ a, .a:link, a:hover, a:visited {
 
 /* Menu */
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    padding: 0px !important;
+.navbar-brand {
+    color:var(--primaryHover) !important;
 }
 
-.dropdown-toggle::after {
-    display: none !important;
-} 
-
-.logo {
-    color: #ddafb8;
+.navbar {
+    background-color: var(--menuBloom);
 }
 
 .pinkNav, .dropdown-menu {
     background-color: #FEF2F4 !important;
-    color: #4F4F4F !important
-}
-
-.dropdown-item:hover {
-    background-color:#ddafb8 !important;
-    color: #ffff !important
-  
+    color: var(--ink50) !important
 }
 
 .dropdown-item {
-    background-color: #FEF2F4 !important;
-    color: #4F4F4F !important
+    background-color: var(--menuBloom) !important;
+    color: var(--ink50) !important
+}
+
+.dropdown-item:hover {
+    background-color:var(--primaryHover) !important;
+    color: var(--background) !important
 }
 
 .dropdown-menu.show, .navbar-light .navbar-toggler {
@@ -131,7 +153,11 @@ a, .a:link, a:hover, a:visited {
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0 !important
+    box-shadow: 0 0 0 0 !important;
+}
+
+.collapse a {
+    color:var(--ink50) !important;
 }
 
 /* Carrousel */
@@ -142,3 +168,4 @@ a, .a:link, a:hover, a:visited {
     margin: 0 0.4em !important; 
     border-radius: 50%
 }
+
