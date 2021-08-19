@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Carousel } from 'react-bootstrap';
 import slide from '../images/banner_01.jpg';
+import slide2 from '../images/banner_02.jpg';
+import slide3 from '../images/banner_03.jpg';
 
 function Banner() {
     return (
@@ -18,7 +20,7 @@ function Banner() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={slide}
+                        src={slide2}
                         alt="Second slide"
                     />
 
@@ -26,7 +28,7 @@ function Banner() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={slide}
+                        src={slide3}
                         alt="Third slide"
                     />
                 </Carousel.Item>

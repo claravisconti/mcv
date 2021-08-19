@@ -156,7 +156,7 @@ a, .a:link, a:hover, a:visited {
     box-shadow: 0 0 0 0 !important;
 }
 
-.collapse a {
+a  {
     color:var(--ink50) !important;
 }
 
@@ -169,3 +169,18 @@ a, .a:link, a:hover, a:visited {
     border-radius: 50%
 }
 
+/* Footer */ 
+
+footer {
+    background-color: var(--menuBloom);
+}
+
+.footer-title {
+    color: var(--primaryHover);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+footer h3 {
+    color: var(--ink50) !important;
+}

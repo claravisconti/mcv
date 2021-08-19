@@ -17,7 +17,7 @@ function ItemList() {
                     } else {
                         reject("No se encontraron resultados")
                     }
-                }, 2000);
+                }, 1000);
             });
 
         pasarVestidos()
