@@ -2,8 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Carousel } from 'react-bootstrap';
 import slide from '../images/banner_01.jpg';
-import slide2 from '../images/banner_02.jpg';
-import slide3 from '../images/banner_03.jpg';
+import slide2 from '../images/banner_01.jpg';
+import slide3 from '../images/banner_01.jpg';
 
 function Banner() {
     return (

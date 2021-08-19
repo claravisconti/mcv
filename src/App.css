@@ -184,3 +184,17 @@ footer {
 footer h3 {
     color: var(--ink50) !important;
 }
+
+footer .nav-link {
+    padding: 0.3em 0;
+}
+
+footer .btn-primary {
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+footer i {
+    color: var(--background);
+}
