@@ -198,3 +198,13 @@ footer .btn-primary {
 footer i {
     color: var(--background);
 }
+
+/* Cards */
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+

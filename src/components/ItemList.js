@@ -32,17 +32,18 @@ function ItemList() {
 
     return (
         <div>
-            <Container>
-                <Row>
-                    <Col>
-                        {
-                            ropa.map((item) => {
-                                return <Item key={item.id} title={item.title} price={item.price} image={item.image} />
-                            })
-                        }
-                    </Col>
-                </Row>
-            </Container>
+            <div class="container my-5">
+                
+                <div class="row d-flex-start">
+
+                {
+                    ropa.map((item) => {
+                        return <Item key={item.id} title={item.title} price={item.price} image={item.image} />
+                    })
+                }
+
+                </div>
+            </div>
         </div>
     );
 

@@ -9,15 +9,15 @@ import {
 
 const Item = ({ id, title, price, image }) => {
     return (
-        <div>
-            <Card>
-                <CardImg top width="100%" src={image} alt={title} />
-                <CardBody>
-                    <CardTitle tag="h5">{title}</CardTitle>
-                    <CardText>{price}</CardText>
-                </CardBody>
-            </Card>
-        </div>
+      
+            <div class="card col-md-5 m-2">
+               
+                    <img src={image} alt={title} />
+                    <h5 class="card-title">{title}</h5>
+                    <p class="card-text">{price}</p>
+             
+            </div>
+    
     );
 };
 
