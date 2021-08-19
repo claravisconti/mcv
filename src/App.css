@@ -201,8 +201,13 @@ footer i {
 
 /* Cards */
 
+.card {
+    width: 25em !important;
+}
+
 .card img {
-    height: 300px;
+    padding: 0.8em 0;
+    height: 30em;
     object-fit: cover;
     object-position: 0 0;
 }

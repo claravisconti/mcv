@@ -32,9 +32,9 @@ function ItemList() {
 
     return (
         <div>
-            <div class="container my-5">
+            <div class="container">
                 
-                <div class="row d-flex-start">
+                <div class="row d-flex justify-content-start my-5">
 
                 {
                     ropa.map((item) => {

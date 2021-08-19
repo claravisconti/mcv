@@ -59,17 +59,6 @@ const vestidos = [
         talles: [40,42,44,46],
         fotos: [vestidoClara,vestidoClara,vestidoClara],
         stock: 5
-    },
-    {
-        id: 6,
-        title: "Vestido Luna",
-        price: "$5.800",
-        descripcion:"Camisa larga confeccionada en heavy voile, look chemise. con mangas balloon 3/4 y recorte en 2da cadera con pequeños frunces.",
-        image: vestidoLuna,
-        colores: ['rojo','amarillo','blanco'],
-        talles: [40,42,44,46],
-        fotos: [vestidoClara,vestidoClara,vestidoClara],
-        stock: 5
     }
 ]
 
