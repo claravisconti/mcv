@@ -45,70 +45,15 @@ function Router() {
                         <Nav>
                             <img class="d-none d-lg-block" src={user}></img>
                             <NavDropdown title="Clara Visconti" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Carrito</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Cerrar sesión</NavDropdown.Item>
+                                <li><a class="dropdown-item" href="#"><Link to="/perfil">Mi cuenta</Link></a></li>
+                                <li><a class="dropdown-item" href="#"><Link to="/carrito">Carrito</Link></a></li>
+                                <li><a class="dropdown-item" href="#"><Link to="/ingreso">Cerrar sesión</Link></a></li>
                             </NavDropdown>
                             <Nav.Link href="#pricing"><i class="fas fa-search"></i></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
-
-            {/* <div>
-                <nav class="navbar navbar-expand-lg">
-
-                    <div class="container-fluid">
-
-                        <div class="navbar-brand" href="#"><h3>Bloom</h3></div>
-
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="d-flex collapse navbar-collapse" id="navbarSupportedContent">
-
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><Link to="/">Inicio</Link></a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Colección
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#"><Link to="/productos">Abrigos</Link></a></li>
-                                        <li><a class="dropdown-item" href="#"><Link to="/productos">Pantalones</Link></a></li>
-                                        <li><a class="dropdown-item" href="#"><Link to="/productos">Vestidos</Link></a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"><Link to="/contacto">Contacto</Link></a>
-                                </li>
-
-
-                                <img class="d-none d-lg-block" src={user}></img>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Clara Visconti
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#"><Link to="/perfil">Perfil</Link></a></li>
-                                        <li><a class="dropdown-item" href="#"><Link to="/carrito">Carrito</Link></a></li>
-                                        <li><a class="dropdown-item" href="#"><Link to="/ingreso">Cerrar Sesión</Link></a></li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </nav>
-            </div> */}
 
 
             <Switch>
