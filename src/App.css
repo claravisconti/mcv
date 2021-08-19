@@ -203,6 +203,7 @@ footer i {
 
 .card {
     width: 25em !important;
+    border:none !important;
 }
 
 .card img {
@@ -210,6 +211,15 @@ footer i {
     height: 30em;
     object-fit: cover;
     object-position: 0 0;
+}
+
+.card-title {
+    color: var(--ink50) !important;
+    font-weight: 600;
+}
+
+.card-text {
+     color: var(--ink50) !important;
 }
 
 

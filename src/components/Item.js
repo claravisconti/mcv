@@ -13,8 +13,8 @@ const Item = ({ id, title, price, image }) => {
         <div class="card m-2">
            
                 <img src={image} alt={title} />
-                <h5 class="card-title">{title}</h5>
-                <p class="card-text">{price}</p>
+                <p class="card-text m-auto">{title}</p>
+                <p class="card-title m-auto">{price}</p>
        
         </div>
 
