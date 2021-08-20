@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import user from '../images/user.png';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // Cards ver todos
 
