@@ -1,5 +1,4 @@
 import "../App.css";
-import React, { useEffect, useState } from 'react';
 import usuarios from '../apis/usuarios';
 
 const usuario = [{
@@ -10,7 +9,6 @@ const usuario = [{
 
 
 function Ingreso() {
-
 
     return (
         <div class="row d-flex justify-content-center">
