@@ -74,6 +74,18 @@ function Ingreso() {
                             ]
                         })
                     }
+                   
+                        <div class="social-buttons text-center mt-4">
+                            <label for="ingresar" class="">Ingresar con</label>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-primary mr-2" href="#">
+                                    <i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary" href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+
                 </form>
             </div>
         </div >
