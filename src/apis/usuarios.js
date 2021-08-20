@@ -13,6 +13,7 @@ const usuarios = [
         codigo: "1415",
         provincia: "CABA",
         pais: "Argentina",
+        nacimiento: "23/08/1989",
         avatar: avatar
     },
     {
@@ -27,6 +28,7 @@ const usuarios = [
         codigo: "1415",
         provincia: "CABA",
         pais: "Argentina",
+        nacimiento: "23/08/1989",
         avatar: avatar
     },
     {
@@ -41,6 +43,7 @@ const usuarios = [
         codigo: "1415",
         provincia: "CABA",
         pais: "Argentina",
+        nacimiento: "23/08/1989",
         avatar: avatar
     }
 ]
