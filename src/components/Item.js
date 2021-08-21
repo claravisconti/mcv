@@ -15,13 +15,11 @@ const Item = ({ id, title, price, image }) => {
 
     return (
 
-        <div class="card m-2">
-
-            <img src={image} alt={title} />
+        <div class="detalle card m-2">
+            <img src={image} alt={title} onClick={verDetalle} />
             <p class="card-text m-auto">{title}</p>
             <p class="card-title m-auto">{price}</p>
-            <button class="btn btn-primary" onClick={verDetalle}>Ver</button>
-
+            {/* <button class="btn btn-primary" onClick={verDetalle}>Ver</button> */}
         </div>
 
     );

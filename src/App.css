@@ -248,3 +248,10 @@ footer i, .social-buttons i {
     border-radius: 2%;
 }
 
+/* Img click */
+
+.detalle img {
+    cursor: pointer;
+}
+
+
