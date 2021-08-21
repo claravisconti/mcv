@@ -19,7 +19,6 @@ const Item = ({ id, title, price, image }) => {
             <img src={image} alt={title} onClick={verDetalle} />
             <p class="card-text m-auto">{title}</p>
             <p class="card-title m-auto">{price}</p>
-            {/* <button class="btn btn-primary" onClick={verDetalle}>Ver</button> */}
         </div>
 
     );
