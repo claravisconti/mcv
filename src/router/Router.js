@@ -26,7 +26,7 @@ function Router() {
                 <Route exact path="/"><Home /></Route>
                 <Route path="/ingreso"><Ingreso /></Route>
                 <Route path="/registro"><Registro /></Route>
-                <Route path="/productos"><ItemListContainer /></Route>
+                <Route path="/productos/:categoria"><ItemListContainer /></Route>
                 <Route path="/detalle/:productoId"><ItemDetailContainer /></Route>
                 <Route path="/carrito"><Carrito /></Route>
                 <Route path="/contacto"><Contact /></Route>

@@ -19,9 +19,9 @@ const NavBar = () => {
                             <a class="nav-link active" aria-current="page" href="#"><Link to="/">Inicio</Link></a>
                         </li>
                         <NavDropdown title="Colección" id="collasible-nav-dropdown">
-                            <li><a class="dropdown-item" href="#"><Link to="/productos/">Abrigos</Link></a></li>
-                            <li><a class="dropdown-item" href="#"><Link to="/productos">Pantalones</Link></a></li>
-                            <li><a class="dropdown-item" href="#"><Link to="/productos">Vestidos</Link></a></li>
+                            <li><a class="dropdown-item" href="#"><Link to="/productos/abrigos">Abrigos</Link></a></li>
+                            <li><a class="dropdown-item" href="#"><Link to="/productos/pantalones">Pantalones</Link></a></li>
+                            <li><a class="dropdown-item" href="#"><Link to="/productos/vestidos">Vestidos</Link></a></li>
                         </NavDropdown>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"><Link to="/productos">Ofertas</Link></a>
