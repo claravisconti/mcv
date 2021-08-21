@@ -156,7 +156,7 @@ a, .a:link, a:hover, a:visited {
     display: none !important
 } 
 
-a  {
+.nav-link, .nav-item a {
     color:var(--ink50) !important;
 }
 
