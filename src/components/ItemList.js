@@ -38,7 +38,7 @@ function ItemList() {
 
                 {
                     ropa.map((item) => {
-                        return <Item key={item.id} title={item.title} price={item.price} image={item.image} />
+                        return <Item id={item.id} title={item.title} price={item.price} image={item.image} />
                     })
                 }
 
