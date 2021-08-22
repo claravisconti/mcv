@@ -6,7 +6,12 @@ import {
 } from 'reactstrap';
 import ItemCount from '../components/ItemCount';
 
-const ItemDetail = ({ id, title, price, image, colores, talles, fotos }) => {
+const ItemDetail = ({ id, title, price, image, colores, talles, fotos, item }) => {
+
+    function onAdd(cantidad) {
+        //recibir evento del itemCount
+        console.log(cantidad);
+    }
 
     return (
         <div>

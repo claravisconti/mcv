@@ -19,7 +19,8 @@ const vestidos = [
         colores: ['blanco','negro'],
         talles: [40,42,44,46],
         fotos: [vestidoClara01,vestidoClara02,vestidoClara03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
         
     },
     {
@@ -31,7 +32,8 @@ const vestidos = [
         colores: ['rojo','amarillo','blanco'],
         talles: [40,42,44,46],
         fotos: [vestidoLuna01,vestidoLuna02,vestidoLuna03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
     },
     {
         id: 3,
@@ -42,7 +44,8 @@ const vestidos = [
         colores: ['blanco','negro'],
         talles: [40,42,44,46],
         fotos: [vestidoMaria01,vestidoMaria02,vestidoMaria03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
     },
     {
         id: 4,
@@ -53,7 +56,8 @@ const vestidos = [
         colores: ['blanco','rosa','negro'],
         talles: [40,42,44,46],
         fotos: [vestidoClara01,vestidoClara02,vestidoClara03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
         
     },
     {
@@ -65,7 +69,8 @@ const vestidos = [
         colores: ['rojo','amarillo','blanco'],
         talles: [40,42,44,46],
         fotos: [vestidoLuna01,vestidoLuna02,vestidoLuna03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
     },
     {
         id: 6,
@@ -76,7 +81,8 @@ const vestidos = [
         colores: ['blanco','negro'],
         talles: [40,42,44,46],
         fotos: [vestidoMaria01,vestidoMaria02,vestidoMaria03],
-        stock: 5
+        stock: 5,
+        categoria: "vestidos"
     }
 ]
 

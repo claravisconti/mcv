@@ -18,6 +18,10 @@ function ItemCount(props) {
         }
     }
 
+    function onAdd() {
+       console.log();
+    }
+
     return (
         <div class="d-flex">
             <button type="button" class="btn btn-secondary" onClick={remove}>-</button>
