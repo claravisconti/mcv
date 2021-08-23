@@ -181,7 +181,7 @@ footer {
     font-weight: 600;
 }
 
-footer h3 {
+footer h3, .quick-links a {
     color: var(--ink50) !important;
 }
 
