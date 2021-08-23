@@ -46,11 +46,14 @@ a, .a:link, a:hover, a:visited {
 .btn-primary, .btn-primary:visited {
     background-color: var(--primaryBloom) !important;
     border-color: var(--primaryBloom) !important;
+    color: var(--background) !important;
+    
 }
 
 .btn-primary:hover, .btn-primary:focus {
     background-color: var(--primaryHover) !important;
     border-color: var(--primaryHover) !important;
+    color: var(--background) !important;
 }
 
 .btn-light, .btn-light:visited {
@@ -248,6 +251,13 @@ footer i, .social-buttons i {
 
 .detalle img {
     cursor: pointer;
+}
+
+/* Not Found */
+
+.notFound {
+    font-size: 1.2rem;
+    color: var(--ink50);
 }
 
 
